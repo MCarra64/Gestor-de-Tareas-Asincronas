@@ -3,6 +3,12 @@ class Nodo {
     constructor(valor) {
         this.valor = valor;
         this.siguiente = null;
+        this.id = null;
+        this.descripcion = null;
+        this.estado = null;
+        this.prioridad = null;
+        this.fechaCreacion = null;
+        this.fechaVencimiento = null;
     }
 }
 
